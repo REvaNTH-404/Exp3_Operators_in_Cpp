@@ -14,8 +14,10 @@ int main() {
         cout << "Grade: C" << endl;
     else if (marks >= 60)
         cout << "Grade: D" << endl;
-    else
+    else if
         cout << "Grade: F" << endl;
+    else
+        cout << "Enter Valid marks" << endl;
 
     return 0;
 }

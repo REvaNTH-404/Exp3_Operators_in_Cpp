@@ -20,8 +20,10 @@ int main() {
         cout << "Point is at Origin" << endl;
     else if (x == 0)
         cout << "Point lies on Y-axis" << endl;
-    else
+    else if
         cout << "Point lies on X-axis" << endl;
+    else 
+        cout << "Coordinates invalid" << endl;
 
     return 0;
 }
